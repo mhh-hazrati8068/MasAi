@@ -10,6 +10,9 @@ const Home: React.FC = () => {
   return (
     <main className={styles.home}>
       <Popups />
+      <div className="ml-[100px]">
+        hello
+      </div>
     </main>
   );
 };

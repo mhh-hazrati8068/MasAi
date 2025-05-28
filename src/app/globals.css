@@ -6,6 +6,19 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  /* Color palette variables */
+  --color-primary: #D14E5B;
+  --color-primary-dark: #85323c;
+  --color-primary-light: #F7D6D9;
+  --color-secondary: #3B82F6;
+  --color-secondary-dark: #1E40AF;
+  --color-secondary-light: #DBEAFE;
+  --color-neutral: #BDBDBD;
+  --color-neutral-dark: #333333;
+  --color-neutral-light: #F5F5F5;
+  --color-success: #22C55E;
+  --color-warning: #F59E42;
+  --color-error: #EF4444;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -98,3 +111,17 @@
 }
 
 /* scroll customization end */
+
+body {
+  font-family: 'Gotham', 'GothamRegular', 'GothamBook', 'GothamLight', 'GothamBold', sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GothamBold', 'Gotham', 'GothamRegular', 'GothamBook', 'GothamLight', sans-serif;
+}
