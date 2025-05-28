@@ -1,9 +1,9 @@
-# Bearer Project
+# Mas Ai
 
-# Bearer Feeds Web Application - DEV
+# Mas Ai website - DEV
 
-## Last Update: 2024-05-02
+## Last Update: 28/05/2025
 
-## Version: 1.0.100
+## Version: 1.0.0
 
 + Project init
